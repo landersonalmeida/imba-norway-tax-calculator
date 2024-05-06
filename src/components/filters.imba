@@ -1,6 +1,6 @@
 css form
 	d:flex
-	gap: 30px
+	gap: 20px
 	align-items: center
 	max-width:70%
 	border-radius:5px
@@ -40,8 +40,8 @@ export default tag Filters
 		<form>
 			<div.form-input>
 				<label>
-					"Enter your gross salary"
-				<input type='text' placeholder='Gross salary'>
+					"Enter your gross income"
+				<input type='number' min='1' max='999999999999' step='any' autocomplete='off' placeholder='Gross income'>
 			<div.form-input>
 				<label>
 					"Per"
